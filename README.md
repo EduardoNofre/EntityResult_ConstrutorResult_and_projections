@@ -19,9 +19,9 @@ resultado da consulta para uma chamada de construtor
 As projections sao interfaces que voce cria para pegar os atributos de queries nativas. elas serao o espelho do nome do campo que voce atribui na query nativa. 
 tem que ser o mesmo nome se nao da errado. eu coloco elas na mesma ordem que defini no select
 
-## Aqui neste repositorio iremos encontrar exemplos:
- - Utlizando SqlResultSetMapping
- - Utlizando EntityResult
- - Utlizando ConstrutorResult
- - Utlizando Projection TODO
+## Aqui neste repositorio iremos encontrar exemplos Utlizando:
+ - SqlResultSetMapping
+ - EntityResult
+ - ConstrutorResult
+ - Projection TODO
    
