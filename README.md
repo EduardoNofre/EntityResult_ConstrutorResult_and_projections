@@ -15,6 +15,9 @@ Usamos a propriedade opcional de campos  para obter mais controle. Combinado com
 A anotação @ConstrutorResult define um mapeamento nomeado a partir de um
 resultado da consulta para uma chamada de construtor
 
+## Spring SqlResultSetMappings? 
+È como se fosse um array de varias query na mesma entity.
+
 ## O que Spring Projection?
 As projections sao interfaces que voce cria para pegar os atributos de queries nativas. elas serao o espelho do nome do campo que voce atribui na query nativa. 
 tem que ser o mesmo nome se nao da errado. eu coloco elas na mesma ordem que defini no select
@@ -23,5 +26,6 @@ tem que ser o mesmo nome se nao da errado. eu coloco elas na mesma ordem que def
  - SqlResultSetMapping
  - EntityResult
  - ConstrutorResult
+ - SqlResultSetMappings
  - Projection TODO
    
