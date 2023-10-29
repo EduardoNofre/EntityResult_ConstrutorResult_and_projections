@@ -16,7 +16,7 @@ A anotação @ConstrutorResult define um mapeamento nomeado a partir de um
 resultado da consulta para uma chamada de construtor
 
 ## Spring SqlResultSetMappings? 
-È como se fosse um array de varias query na mesma entity.
+È como se fosse um array de varias query na mesma entity ou um array de mappings.
 
 ## O que Spring Projection?
 As projections sao interfaces que voce cria para pegar os atributos de queries nativas. elas serao o espelho do nome do campo que voce atribui na query nativa. 
